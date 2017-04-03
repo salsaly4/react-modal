@@ -10,6 +10,7 @@ module.exports = {
   output: {
     path: resolve(__dirname, 'dist'),
     filename: 'index.js',
+    libraryTarget: 'umd',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
