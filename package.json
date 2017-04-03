@@ -1,6 +1,6 @@
 {
-  "name": "react-modal",
-  "version": "1.0.1",
+  "name": "@salsaly4/react-modal",
+  "version": "1.0.2",
   "description": "Simple React Modal component",
   "main": "dist/index.js",
   "module": "dist/",
@@ -46,7 +46,7 @@
     "webpack": "^2.3.2"
   },
   "peerDependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react": "^15.4",
+    "react-dom": "^15.4"
   }
 }
