@@ -15,12 +15,14 @@ class Modal extends React.Component {
     );
   }
 }
+
 Modal.defaultProps = {
   backdropClass: 'modal-background',
   modalContainerClass: 'modal-container',
   modalClass: 'modal',
   children: null,
 };
+
 Modal.propTypes = {
   isModalOpen: React.PropTypes.bool.isRequired,
   backdropClass: React.PropTypes.string,
@@ -28,4 +30,5 @@ Modal.propTypes = {
   modalClass: React.PropTypes.string,
   children: React.PropTypes.element,
 };
+
 export default Modal;
